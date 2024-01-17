@@ -14,7 +14,7 @@ class FeatureBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 35, vertical: 8),
+      margin: const EdgeInsets.symmetric(horizontal: 35, vertical: 10),
       decoration: BoxDecoration(
         color: color,
         borderRadius: const BorderRadius.all(
