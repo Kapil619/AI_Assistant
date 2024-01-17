@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
           ),
           //chat bubble
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
             margin:
                 const EdgeInsets.symmetric(horizontal: 40).copyWith(top: 30),
             decoration: BoxDecoration(
@@ -69,8 +69,8 @@ class _HomePageState extends State<HomePage> {
           ),
           //suggestions
           Container(
-            padding: const EdgeInsets.all(10),
-            margin: const EdgeInsets.only(top: 10, left: 22),
+            padding: const EdgeInsets.all(8),
+            margin: const EdgeInsets.only(top: 8, left: 22),
             alignment: Alignment.centerLeft,
             child: const Text(
               'Here are a few features you can try:',
@@ -81,6 +81,7 @@ class _HomePageState extends State<HomePage> {
                   fontWeight: FontWeight.bold),
             ),
           ),
+          //3 suggestions here
           const Column(
             children: [
               FeatureBox(
